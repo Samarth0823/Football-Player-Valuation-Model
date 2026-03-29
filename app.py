@@ -14,7 +14,7 @@ st.markdown("Find the next superstar before the market notices.")
 # For now, we assume 'final_data.csv' exists
 @st.cache_data
 def load_data():
-    return pd.read_csv('your_processed_football_data.csv') 
+    return pd.read_csv('final_scout_data.csv') 
 
 df = load_data()
 
