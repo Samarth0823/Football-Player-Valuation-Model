@@ -14,7 +14,7 @@ st.markdown("Find the next superstar by matching performance profiles.")
 @st.cache_data
 def load_data():
     # Make sure this filename matches exactly what's on your GitHub
-    df = pd.read_csv('scout_master_data.csv')
+    df = pd.read_csv('final_scout_data.csv')
     return df
 
 try:
